@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ორთოგრაფიულ მორფოლოგიური ლექსიკონი</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bpg-square.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" />
+      <p class="header-text">ორთოგრაფიული ლექსიკონი</p>
+    </header>
+    <div class="first-nav">
+      <input id="search" type="text" placeholder="შეიყვანეთ საძიებო სიტყვა" />
+      <button id="submit" type="button">ძებნა</button>
+    </div>
+    <div class="second-nav">
+      <div class="correct_example">სწორი ფორმაა</div>
+      <div class="correct_when_example">სწორი ფორმაა როდესაც...</div>
+      <div class="wrong_example">არასწორი ფორმაა</div>
+    </div>
+    <div class="letter">
+      <h1>ა</h1>
+    </div>
+    <div class="main">
+      <div class="word">
+        <div class="correct" id="absoluturi">აბსოლუტური</div>
+        <div class="wrong" id="absolituri">აბსოლიტური</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="avamodzrao">ავამოძრაო</div>
+        <div class="wrong" id="avamodzravo">ავამოძრავო</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="av-kargi">ავ-კარგი</div>
+        <div class="wrong" id="avkargi">ავკარგი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="itvalwunebs">ითვალწუნებს</div>
+        <div class="wrong" id="itvaliswunebs">ითვალისწუნებს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="akuratuli">აკურატული</div>
+        <div class="wrong" id="akuratulni">აკურატულნი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="asmevs">ასმევს</div>
+        <div class="wrong" id="alevinebs">ალევინებს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="am-droidan">ამ დროიდან</div>
+        <div class="wrong" id="amdroidan">ამდროიდან</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="amdroindeli">ამდროინდელი</div>
+        <div class="wrong" id="am-droindeli">ამ დროინდელი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="amoglejs">ამოგლეჯს</div>
+        <div class="correct_when">(ორ პირიანი ზმნა)</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="amohglejs">ამოჰგლეჯს</div>
+        <div class="correct_when">(სამ პირიანი ზმნა)</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="amotxupnili">ამოთხუპნილი</div>
+        <div class="wrong" id="amotxupnuli">ამოთხუპნული</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="amochichqnis">ამოჩიჩქნის</div>
+        <div class="correct_when">(ორ პირიანი ზმნა)</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="amoschichqnis">ამოსჩიჩქნის</div>
+        <div class="correct_when">(სამ პირიანი ზმნა)</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="amochqefs">ამოჩქეფს</div>
+        <div class="correct_when">(ერთ პირიანი ზმნა)</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="amoschqefs">ამოსჩქეფს</div>
+        <div class="correct_when">(ორ პირიანი ზმნა)</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="amocvivda">ამოცვივდა</div>
+        <div class="correct_when">(ერთ პირიანი ზმნა)</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="amoscvivda">ამოსცვივდა</div>
+        <div class="correct_when">(ორ პირიანი ზმნა)</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="amohbervia">ამოჰბერვია</div>
+        <div class="wrong" id="amobervia">ამობერვია</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="amohbugvia">ამოჰბუგვია</div>
+        <div class="wrong" id="amobugvia">ამობუგვია</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="amohburcvia">ამოჰბურცვია</div>
+        <div class="wrong" id="amoburcvia">ამობურცვია</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="amohyavs">ამოჰყავს</div>
+        <div class="wrong" id="amoyavs">ამოყავს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="amohkortnis">ამოჰკორტნის</div>
+        <div class="wrong" id="amokortnis">ამოკორტნის</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="anaxvebs">ანახვებს</div>
+        <div class="wrong" id="anaxebs">ანახებს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="anaxvos">ანახვოს</div>
+        <div class="wrong" id="anaxos">ანახოს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="anaxvebda">ანახვებდა</div>
+        <div class="wrong" id="anaxebda">ანახებდა</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="anaxvina">ანახვინა</div>
+        <div class="wrong" id="anaxina">ანახინა</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="anekdoti">ანეკდოტი</div>
+        <div class="wrong" id="anegdoti">ანეგდოტი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="avitarebs">ავითარებს</div>
+        <div class="wrong" id="anvitarebs">ანვითარებს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="azogadebs">აზოგადებს</div>
+        <div class="wrong" id="anzogadebs">ანზოგადებს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="atavisuflebs">ათავისუფლებს</div>
+        <div class="wrong" id="antavisuflebs">ანთავისუფლებს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="anoyivrebs">ანოყივრებს</div>
+        <div class="correct" id="anoyierebs">ანოყიერებს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="asaxierebs">ასახიერებს</div>
+        <div class="wrong" id="ansaxierebs">ანსახიერებს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="asxvavebs">ასხვავებს</div>
+        <div class="wrong" id="ansxvavebs">ანსხვავებს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="acvifrebs">აცვიფრებს</div>
+        <div class="wrong" id="ancvifrebs">ანცვიფრებს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="axorcielebs">ახორციელებს</div>
+        <div class="wrong" id="anxorcielebs">ანხორციელებს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="ara-aqvs">არა აქვს</div>
+        <div class="correct" id="ar-aqvs">არ აქვს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="arasgzit">არასგზით</div>
+        <div class="wrong" id="aragzit">არაგზით</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="ara-da-ara">არა და არა</div>
+        <div class="wrong" id="aradaara">არადაარა</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aradrouli">არადროული</div>
+        <div class="wrong" id="ara-drouli">არა დროული</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="araertgzis">არაერთგზის</div>
+        <div class="wrong" id="ara-ertgzis">არა ერთგზის</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="araerti">არაერთი</div>
+        <div class="wrong" id="ara-erti">არა ერთი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="araertxel">არაერთხელ</div>
+        <div class="wrong" id="ara-etxel">არა ერთხელ</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="ara-marto">არა მარტო</div>
+        <div class="wrong" id="aramarto">არამარტო</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aramc-da-aramc">არამც და არამც</div>
+        <div class="wrong" id="aramcdaaramc">არამცდაარამც</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="ararealuri">არარეალური</div>
+        <div class="wrong" id="ara-realuri">არა რეალური</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="arasdros">არასდროს</div>
+        <div class="correct" id="arasodes">არასოდეს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="araswori">არასწორი</div>
+        <div class="wrong" id="ara-swori">არა სწორი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="ara-uadres">არა უადრეს</div>
+        <div class="wrong" id="arauadres">არაუადრეს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="ara-ushavs">არა უშავს</div>
+        <div class="wrong" id="araushavs">არაუშავს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="arc-ki">არც კი</div>
+        <div class="wrong" id="arcki">არცკი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="ara-ugvianes">არა უგვიანეს</div>
+        <div class="wrong" id="araugvianes">არაუგვიანეს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="ara-udides">არა უდიდეს</div>
+        <div class="wrong" id="araudides">არაუდიდეს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aryola">არყოლა</div>
+        <div class="wrong" id="ar-yola">არ ყოლა</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aryofna">არყოფნა</div>
+        <div class="wrong" id="ar-yofna">არ ყოფნა</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="arctu">არცთუ</div>
+        <div class="wrong" id="arc-tu">არც თუ</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="ase-tu-ise">ასე თუ ისე</div>
+        <div class="wrong" id="asetuise">ასეთუისე</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="as-ormocdaati">ას ორმოცდაათი</div>
+        <div class="wrong" id="asormocdaati">ასორმოცდაათი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="asormocdameate">ასორმოცდამეათე</div>
+        <div class="wrong" id="as-ormocdameate">ას ორმოცდამეათე</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="asfalti">ასფალტი</div>
+        <div class="wrong" id="asvalti">ასვალტი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aschuyebia">ასჩუყებია</div>
+        <div class="wrong" id="achuyebia">აჩუყებია</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="asdzagdzagebia">ასძაგძაგებია</div>
+        <div class="wrong" id="adzagdzagebia">აძაგძაგებია</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aswia">ასწია</div>
+        <div class="wrong" id="awia">აწია</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="awonis">აწონის</div>
+        <div class="wrong" id="aswonis">ასწონის</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aswyvetia">ასწყვეტია</div>
+        <div class="wrong" id="awyvetia">აწყვეტია</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aswrelebia">ასჭრელებია</div>
+        <div class="wrong" id="awrelebia">აჭრელებია</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="atexs">ატეხს</div>
+        <div class="wrong" id="atexavs">ატეხავს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aghuzrdis">აღუზრდის</div>
+        <div class="wrong" id="auzrdis">აუზრდის</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aunusxavi">აუნუსხავი</div>
+        <div class="correct" id="aghunusxavi">აღუნუსხავი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aupyrobs">აუპყრობს</div>
+        <div class="correct" id="aghupyrobs">აღუპყრობს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aqetobas">აქეთობას</div>
+        <div class="wrong" id="aqetobisas">აქეთობისას</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aqedan">აქედან</div>
+        <div class="wrong" id="aqidan">აქიდან</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aghvkvet">აღვკვეთ</div>
+        <div class="wrong" id="avghkvet">ავღკვეთ</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aghvnusxav">აღვნუსხავ</div>
+        <div class="wrong" id="avghnusxav">ავღნუსხავ</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aghkvec">აღვკვეც</div>
+        <div class="wrong" id="avghkvec">ავღკვეც</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aghvmartav">აღვმართავ</div>
+        <div class="wrong" id="avghmartav">ავღმართავ</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aghvnishnav">აღვნიშნავ</div>
+        <div class="wrong" id="avghnishnav">ავღნიშნავ</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aghvshfotdebi">აღვშფოთდები</div>
+        <div class="wrong" id="avghshfotdebi">ავღშფოთდები</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aghvdzrav">აღვძრავ</div>
+        <div class="wrong" id="avghdzrav">ავღძრავ</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aghvwer">აღვწერ</div>
+        <div class="wrong" id="avghwer">ავღწერ</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aghvwurav">აღვჭურავ</div>
+        <div class="wrong" id="avghwurav">ავღჭურავ</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aghunusxavs">აღუნუსხავს</div>
+        <div class="wrong" id="aghunusxia">აღუნუსხია</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aghuwuravs">აღუჭურავს</div>
+        <div class="wrong" id="aghuwurvia">აღუჭურვია</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="adzghebs">აძღებს</div>
+        <div class="wrong" id="adzghobs">აძღობს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aw-gansvenebuli">აწ განსხვენებული</div>
+        <div class="wrong" id="awgansvenebuli">აწგანსვენებული</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="axlave">ახლავე</div>
+        <div class="wrong" id="exlave">ეხლავე</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="axlad-agebuli">ახლად აგებული</div>
+        <div class="wrong" id="axladagebuli">ახლადაგებული</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="axlomaxlo">ახლომახლო</div>
+        <div class="wrong" id="axlo-maxlo">ახლო მახლო</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="svams">სვამს</div>
+        <div class="wrong" id="ajens">აჯენს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="ahgizgizebia">აჰგიზგიზებია</div>
+        <div class="wrong" id="agizgizebia">აგიზგიზებია</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="ahglejia">აჰგლეჯია</div>
+        <div class="wrong" id="aglejia">აგლეჯია</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="ahkankalebia">აჰკანკალებია</div>
+        <div class="wrong" id="akankalebia">აკანკალებია</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="ahkidebia">აჰკიდებია</div>
+        <div class="wrong" id="akidebia">აკიდებია</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="ahyolia">აჰყოლია</div>
+        <div class="wrong" id="ayolia">აყოლია</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="ahyudebia">აჰყუდებია</div>
+        <div class="wrong" id="ayudebia">აყუდებია</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="aghtyinebuli">აღტყინებული</div>
+        <div class="wrong" id="aghtkinebuli">აღტკინებული</div>
+      </div>
+
+      <div class="letter">
+        <h1>ბ</h1>
+      </div>
+      <div class="word">
+        <div class="correct" id="bafTa">ბაფთა</div>
+        <div class="wrong" id="bafta">ბაფტა</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="baletmaisteri">ბალეტმაისტერი</div>
+        <div class="wrong" id="baletmeisteri">ბალეტმეისტერი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="balneologi">ბალნეოლოგი</div>
+        <div class="wrong" id="balnelogi">ბალნელოგი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="banknoti">ბანკნოტი</div>
+        <div class="wrong" id="baknoti">ბაკნოტი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bard-ekali">ბარდ-ეკალი</div>
+        <div class="wrong" id="bardekali">ბარდეკალი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="baghcha">ბაღჩა</div>
+        <div class="wrong" id="baxcha">ბახჩა</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bdghvna">ბდღვნა</div>
+        <div class="wrong" id="bghdvna">ბღვდნა</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bedshavi">ბედშავი</div>
+        <div class="wrong" id="bed-shavi">ბედ-შავი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bebiamisi">ბებიამისი</div>
+        <div class="wrong" id="bebia-misi">ბებია-მისი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bebiaqali">ბებიაქალი</div>
+        <div class="wrong" id="bebia-qali">ბებია-ქალი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="ber-monazoni">ბერ-მონაზონი</div>
+        <div class="wrong" id="bermonazoni">ბერმონაზონი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="berad">ბერად</div>
+        <div class="wrong" id="berat">ბერათ</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bechaoba">ბეჩაობა</div>
+        <div class="wrong" id="bechavoba">ბეჩავობა</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="boxcha">ბოხჩა</div>
+        <div class="wrong" id="boghcha">ბოღჩა</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="boboqrad">ბობოქრად</div>
+        <div class="wrong" id="boboqrat">ბობოქრათ</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bodzebshua">ბოძებშუა</div>
+        <div class="wrong" id="bodzeb-shua">ბოძებ-შუა</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bgerataghwarmoeba">ბგერათაღწარმოება</div>
+        <div class="wrong" id="bgerat-aghwarmoeba">ბგერათ-აღწარმოება</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bzargachenili">ბზარგაჩენილი</div>
+        <div class="wrong" id="bzar-gachenili">ბზარ-გაჩენილი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bzarsheparuli">ბზარშეპარული</div>
+        <div class="wrong" id="bzar-sheparuli">ბზარ-შეპარული</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="biaTloni">ბიათლონი</div>
+        <div class="wrong" id="biatloni">ბიატლონი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="blagvkbila">ბლაგვკბილა</div>
+        <div class="wrong" id="blagv-kbila">ბლაგვ-კბილა</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="blagvkutxa">ბლაგვკუთხა</div>
+        <div class="wrong" id="blagv-kutxa">ბლაგვ-კუთხა</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="blagvpira">ბლაგვპირა</div>
+        <div class="wrong" id="blagv-pira">ბლაგვ-პირა</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bneda">ბნედა</div>
+        <div class="wrong" id="bnedva">ბნედვა</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bnedamoreuli">ბნედამორეული</div>
+        <div class="wrong" id="bneda-moreuli">ბნედა-მორეული</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bneds">ბნედს</div>
+        <div class="wrong" id="bnedavs">ბნედავს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bdjghvrialebs">ბჟღვრიალებს</div>
+        <div class="wrong" id="bdjghvrialefs">ბჟღვრიალეფს</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bragabrugi">ბრაგაბრუგი</div>
+        <div class="wrong" id="braga-brugi">ბრაგა-ბრუგი</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bradikardia">ბრადიკარდია</div>
+        <div class="wrong" id="bradi-kardia">ბრადი-კარდია</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bghavi">ბღავი</div>
+        <div class="wrong" id="bghavixar">ბღავიხარ</div>
+      </div>
+      <div class="word">
+        <div class="correct" id="bwkena">ბწკენა</div>
+        <div class="wrong" id="brwkena">ბრწკენა</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
